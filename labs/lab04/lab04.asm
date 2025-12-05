@@ -1,5 +1,5 @@
 SECTION .data 
-hello:	DB 'Zakiyev Emir' ,10 
+hello:	DB 'Hello world' ,10 
 helloLen: EQU $-hello 	
 SECTION .text 
 Global _start 	
